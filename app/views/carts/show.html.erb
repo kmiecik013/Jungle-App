@@ -4,6 +4,20 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if enhanced_cart.empty? %>
+
+  <div class= "alert alert-danger">
+    <%= "Cart is empty, go buy something" %>
+    <br>
+    </div>
+    <% link_to "Continue shoppping", root_path, class: 'btn btn-lg btn-primary' %>
+
+    <form class="button_to" method="get" action="/"><button class="btn btn-primary" type="submit">
+      <i class="fa fa-shopping-cart"></i> Continue Shopping
+</button>
+    
+    <% else %>
+
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +62,7 @@
       <% end %>
     </div>
   </div>
+
+  <% end %>
 
 </section>
