@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe Product, type: :model do
   describe 'Validations' do
     # validates :name, presence: true
-    it "is can save correctly" do 
+    it "can save correctly with all required information entered" do
       @category = Category.new(name: "Borat's Wardrobe")
       @product = Product.new(
         name: "Borat's Mankini",
