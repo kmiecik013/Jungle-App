@@ -31,3 +31,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Screenshots
+
+!["Screenshot of Home page"](https://github.com/kmiecik013/Jungle-App/blob/master/docs/Home.png)
+
+!["Screenshot of Categories"](https://github.com/kmiecik013/Jungle-App/blob/master/docs/Categories.png)
+
+!["Screenshot of Product"](https://github.com/kmiecik013/Jungle-App/blob/master/docs/ProductID.png)
